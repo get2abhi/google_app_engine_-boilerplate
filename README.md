@@ -32,3 +32,7 @@ print s
 print s_encrypted
 print s_decrypted
 ```
+
+Android code to encrypt
+
+https://github.com/get2abhi/Keyczar_Android_Demo
