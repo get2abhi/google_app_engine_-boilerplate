@@ -1,12 +1,13 @@
 # google_app_engine_-boilerplate
 boilerplate code for google app engine project in python which includes many useful libraries 
 
+# Libraries
 
-# Keyczar
+## Keyczar
 
 How to use keyczar for encryption and decryption
 
-## Create keys first
+### Create keys first
 
 
 ```
