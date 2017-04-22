@@ -12,7 +12,7 @@ How to use keyczar for encryption and decryption
 
 ```
 mkdir -p ./tmp/kz 
-python keyczart.py create --location=./tmp/kz --purpose=crypt 
+python keyczart.py create --location=./tmp/kz --purpose=crypt --name=DUMMY
 python keyczart.py addkey --location=./tmp/kz --status=primary 
 ```
 
