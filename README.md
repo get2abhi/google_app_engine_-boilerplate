@@ -8,10 +8,11 @@ How to use keyczar for encryption and decryption
 
 ## Create keys first
 
+<code>
 mkdir -p /tmp/kz 
 keyczart create --location=/tmp/kz --purpose=crypt 
 keyczart addkey --location=/tmp/kz --status=primary 
-
+</code>
 
 Python code to encrypt and decrypt
 
