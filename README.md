@@ -1,4 +1,4 @@
-# google_app_engine_-boilerplate
+# google_app_engine_boilerplate
 boilerplate code for google app engine project in python which includes many useful libraries 
 
 # Libraries
