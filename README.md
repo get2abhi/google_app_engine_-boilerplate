@@ -1,4 +1,4 @@
-# google_app_engine_-boilerplate
+# google_app_engine_boilerplate
 boilerplate code for google app engine project in python which includes many useful libraries 
 
 # Libraries
@@ -11,9 +11,9 @@ How to use keyczar for encryption and decryption
 
 
 ```
-mkdir -p /tmp/kz 
-keyczart create --location=/tmp/kz --purpose=crypt 
-keyczart addkey --location=/tmp/kz --status=primary 
+mkdir -p ./tmp/kz 
+python keyczart.py create --location=./tmp/kz --purpose=crypt --name=DUMMY
+python keyczart.py addkey --location=./tmp/kz --status=primary 
 ```
 
 
@@ -32,3 +32,7 @@ print s
 print s_encrypted
 print s_decrypted
 ```
+
+Android code to encrypt
+
+https://github.com/get2abhi/Keyczar_Android_Demo
