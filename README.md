@@ -11,9 +11,9 @@ How to use keyczar for encryption and decryption
 
 
 ```
-mkdir -p /tmp/kz 
-keyczart create --location=/tmp/kz --purpose=crypt 
-keyczart addkey --location=/tmp/kz --status=primary 
+mkdir -p ./tmp/kz 
+python keyczart.py create --location=./tmp/kz --purpose=crypt 
+python keyczart.py addkey --location=./tmp/kz --status=primary 
 ```
 
 
